@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 0.5rem;
+}
+
+.categories .category {
+  cursor: pointer;
+}
+
+.category img {
+  width: 100%;
+  height: auto;
+}
